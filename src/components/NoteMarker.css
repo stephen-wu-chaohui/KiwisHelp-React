@@ -1,0 +1,43 @@
+.note {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: rgb(247, 198, 186);
+    background-color: rgb(36, 36, 11);
+    opacity: 0.85;
+    padding: 2px;
+    border-radius: 2px;
+    width: 120px;
+    text-align: center;
+}
+
+.photo {
+    background-color: rgb(36, 36, 11);
+    border-radius: 2px;
+    opacity: 0.85;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin: 2px 2px;
+}
+
+.logo {
+    background-color: rgb(36, 36, 11);
+    border-radius: 50%;
+    opacity: 0.50;
+    animation: photo-spin infinite 5s linear;
+    width: 30px;
+    height: 30px;
+    text-align: left;
+    display: inline-block;
+    margin: 2px 2px;
+}
+
+@keyframes photo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+  
